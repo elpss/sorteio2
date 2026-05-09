@@ -1,4 +1,5 @@
 'use client'
+
 export default function InstagramGiveawayApp() {
   const mockParticipants = [
     { user: '@ana', comments: 12 },
@@ -18,6 +19,7 @@ export default function InstagramGiveawayApp() {
           <h1 className="text-5xl font-bold text-pink-600 mb-4">
             Sorteio Instagram
           </h1>
+
           <p className="text-gray-600 text-lg">
             Descubra automaticamente quem mais comentou na postagem.
           </p>
@@ -99,30 +101,6 @@ export default function InstagramGiveawayApp() {
             <button className="bg-gray-900 hover:bg-black transition text-white px-8 py-4 rounded-2xl font-semibold text-lg">
               Realizar Sorteio
             </button>
-          </div>
-        </div>
-
-        <div className="mt-10 bg-white rounded-3xl shadow-xl p-6">
-          <h2 className="text-2xl font-bold mb-4 text-gray-800">
-            Recursos
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-4">
-            {[
-              'Remover comentários duplicados',
-              'Detectar quem mais comentou',
-              'Exportar participantes',
-              'Sorteio automático',
-              'Ranking de participantes',
-              'Animação de resultado',
-            ].map((item, index) => (
-              <div
-                key={index}
-                className="border border-pink-100 bg-pink-50 rounded-2xl p-4 font-medium text-gray-700"
-              >
-                {item}
-              </div>
-            ))}
           </div>
         </div>
       </div>
