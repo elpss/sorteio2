@@ -1,3 +1,4 @@
+'use client'
 export default function InstagramGiveawayApp() {
   const mockParticipants = [
     { user: '@ana', comments: 12 },
